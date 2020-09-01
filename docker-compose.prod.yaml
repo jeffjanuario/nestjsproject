@@ -5,6 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: api-app
+    container_name: api-git-app
     ports:
       - 3000:3000
